@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: "Arial";
+}
+
+section.main {
+    flex: 1;
+    border-bottom: solid 2px #eeeeee;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(238, 238, 238);
+    text-align: center;
+}
+
+footer {
+    background-color: #f7f7f7;
+    color: #b0b0b0;
+    padding: 4.5em 0 2.5em 0;
+    text-align: center;
+}
+
+footer a {
+    color: #b0b0b0;
+}
